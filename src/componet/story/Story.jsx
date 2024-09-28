@@ -12,10 +12,9 @@ export default function Story() {
     </div>
     <div className='w-full md:w-1/2 md:self-center relative text-center md:text-start  '>
     <img src={img11} className='w-full'/>
-    <h2 className='absolute top-0 lg:top-[-29px] ps-3 md:top-[-40px]  lg:text-[16px] text-[18px] md:text-[10px]  '><span className='lg:text-[35px] text-[35px] md:text-[20px]'>Welcome to The <br/>Neighborhood</span><br/>
+    <h2 className='absolute top-0 lg:top-[-29px] ps-3  '><span className='lg:text-[35px] text-[35px] md:text-[20px]'>Welcome to The <br/>Neighborhood</span><br/>
      Hungry Sushi fans and foodies of South Bay, we'd like to introduce you to our neighborhood sushi kitchen El Pez.
-     Made up folks who've been running some of the finest sushi restaurants around San Diego, we wanted to bring back a taste of everything we've learned to the great South Bay communities we grew up in.
-     Come on in and try us out. My name's Alex and I look forward to meeting you.</h2> 
+     .</h2> 
     </div>
    </div>
   <a href="https://www.instagram.com/elpezkitchen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <button type="button" className="mt-7  text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-4 dark:focus:ring-yellow-900"><i className="pe-1 fa-brands fa-instagram"></i>FOLLOW US ON INSTEGRAM</button></a>
