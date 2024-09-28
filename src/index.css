@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-image: url("../src/assets/ress1.jpg");
+  background-attachment: fixed;
+}
+
+.closeSlide
+{
+  width: 30px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/res1.jpg");
+   /* background-color: rgb(0, 0, 0); */
+  background-position: center;
+  background-size: cover;
+  z-index: 999999;
+
+}
+
+.openSlide
+{
+  width: 200px;
+  
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/res1.jpg");
+
+  background-position: center;
+  background-size: cover;
+  z-index: 999999999;
+
+}
+li, h2,h3,span,h1
+{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+.home1
+{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("assets/res101.jpg");
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+
+}
+.home2
+{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("assets/res4.jpg");
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
+.home3
+{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("assets/res3.jpg");
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
+h2,h3{
+  font-weight: 300;
+}
+
+/* .story
+{
+  background-image: url("../src/assets/ress1.jpg");
+  background-attachment: fixed;
+ 
+  height: 100vh;
+
+} */
+/* 
+.menu
+{
+  background-image: url("../src/assets/ress1.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+} */
+.elmenu
+{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("assets/res1.jpg");
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+.food
+{
+  height: 100vh;
+
+}
+.back
+{
+  /* background-image: url("assets/res111.jpg"); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 251, 251, 0.2)),url("assets/res111.jpg");
+
+  height: 100%;
+}
+
+.contact
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+.product:hover
+{
+  border: 1px solid green;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.text-main 
+{
+  color: green;
+}
+
+
