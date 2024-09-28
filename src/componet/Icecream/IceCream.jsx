@@ -13,9 +13,9 @@ export default function IceCream() {
      
   return (
     <>
-    <div className='container mx-auto ps-8 md:ms-0 bg-menu'>
+ {beef?.length? <div className='container mx-auto ps-8 md:ms-0 bg-menu'>
     <div className='flex flex-wrap space-y-5 md:space-y-0 p-7 '>
-  
+    
     {beef?.map((p,i)=>
       <div key={i} className=' product hover:shadow-md p-4 w-full md:w-1/4 lg:w-1/5'>
     
@@ -27,7 +27,9 @@ export default function IceCream() {
     </div>
     )}
     </div>
-    </div>
+    </div>:<div className='text-center py-16 h-[300px] md:h-[600px] flex items-center justify-center'>
+      <i className='fas fa-spinner fa-spin-pulse fa-4x'></i>
+    </div>}
 
     
 

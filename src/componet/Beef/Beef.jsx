@@ -15,7 +15,7 @@ export default function Beef() {
     <>
     <div className='container mx-auto ps-8 md:ms-0 bg-menu'>
     <div className='flex flex-wrap space-y-5 md:space-y-0 p-7 '>
-  
+    
     {beef?.map((p,i)=>
       <div key={i} className=' product hover:shadow-md p-4 w-full md:w-1/4 lg:w-1/5'>
     
@@ -30,8 +30,8 @@ export default function Beef() {
     </div>
 
     
-
-
+   
+  
     
     </>
   )
